@@ -1,0 +1,16 @@
+<custom-action actionType="Command line Action" isHit="false"
+    name="command_line" uid="b373c4d4-f7d3-4f5e-8d30-d4a69c7c45b3">
+    <description>Launches a program on the Load Generator machine. Jars and resources copied under the 'custom-resources' folder of the project are automatically copied to all Load Generators.
+Use the variable '${NL-CustomResources}' to access the synchronized folder on the Load Generator.
+
+Possible parameters are:
+- command: The command to launch or program executable file
+- argX: Command argument number X (eg: arg1, arg2, ...)
+- charset: The charset used by the console. Default platform charset is used if not set.
+- closeInput: close the input after launching the cmd process, it allows to execute powershell commands.</description>
+    <custom-action-parameter name="command" type="TEXT" value=""/>
+    <custom-action-parameter name="arg1" type="TEXT" value=""/>
+    <custom-action-parameter name="arg2" type="TEXT" value=""/>
+    <custom-action-parameter name="arg3" type="TEXT" value=""/>
+    <responsePageFileDescription>recorded-responses/res_b373c4d4-f7d3-4f5e-8d30-d4a69c7c45b3</responsePageFileDescription>
+</custom-action>

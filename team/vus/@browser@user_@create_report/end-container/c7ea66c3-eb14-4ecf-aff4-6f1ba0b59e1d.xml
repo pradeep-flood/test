@@ -1,0 +1,12 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/" postCharset="" postType="1"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="c7ea66c3-eb14-4ecf-aff4-6f1ba0b59e1d" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@browser@user_@create_report/%resources%/recorded-responses/res_c7ea66c3-eb14-4ecf-aff4-6f1ba0b59e1d</responsePageFileDescription>
+    <header name="TestStatus" value="${NL-TestStatus}"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

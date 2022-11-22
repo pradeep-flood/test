@@ -1,0 +1,27 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="ldevtlsa04.lx.finbel.intra:7100" loadWeight="1"
+    sapSupport="false" standalone="true" supportWANEmulation="false"
+    uid="c47ac633-12b3-478d-b8d2-1ef26d86469a" version="9.0.1;build=20220923-87">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="ens160" enabled="false"
+        isLoopBack="false" name="ens160">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="ldevtlsa04.lx.finbel.intra">
+            <ip value="10.21.117.65"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:250:56ff:fe98:3ba8%ens160">
+            <ip value="fe80:0:0:0:250:56ff:fe98:3ba8%ens160"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

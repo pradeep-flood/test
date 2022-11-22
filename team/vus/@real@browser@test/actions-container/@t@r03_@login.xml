@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="TR03_Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ba534ad9-720f-4566-ac85-05ce58feae9c" weightsEnabled="false">
+    <weighted-embedded-action uid="0954c6b2-ade1-4757-a6c1-e8fcac66c2f3"/>
+    <weighted-embedded-action uid="81ce94b8-7b42-4ede-ba28-14356197a3a2"/>
+    <weighted-embedded-action uid="c388513f-62cd-4ad9-aaea-83bdacece9a3"/>
+    <weighted-embedded-action uid="16296f4f-d460-4ed0-8a5d-549c63847845"/>
+    <weighted-embedded-action uid="ecc31ee3-369c-4053-ad0a-c3ef910af390"/>
+    <weighted-embedded-action uid="a3f1a6d4-9438-4c8c-9ce1-338a8adf9a71"/>
+</basic-logical-action-container>

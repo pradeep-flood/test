@@ -1,0 +1,13 @@
+<browser-action actionType="BrowserNavigate" isHit="true"
+    name="navigate" uid="010cd18c-d8f9-48bf-95ed-7b748f8fb7bc">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL should include scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): Timeout in milliseconds. The navigation must occur within the specified timeout. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="url" type="TEXT" value="http://ccffwbacc.finbel.intra/taxonweb/app/civilservant/private/finbox/taxbox.do"/>
+    <responsePageFileDescription>recorded-responses/res_010cd18c-d8f9-48bf-95ed-7b748f8fb7bc</responsePageFileDescription>
+    <embedded-action>def8caf3-86af-46a4-8cae-d0e088121b38</embedded-action>
+</browser-action>

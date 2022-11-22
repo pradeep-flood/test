@@ -1,0 +1,13 @@
+<browser-action actionType="BrowserNavigate" isHit="true"
+    name="navigate" uid="98705cea-b153-4af2-84bc-b85d5c388711">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL should include scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): Timeout in milliseconds. The navigation must occur within the specified timeout. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="url" type="TEXT" value="http://ljavad02.finbel.intra:7881/hypopro"/>
+    <responsePageFileDescription>recorded-responses/res_98705cea-b153-4af2-84bc-b85d5c388711</responsePageFileDescription>
+    <embedded-action>0a7eb81a-d2ba-49b1-b46a-4e93cfd4f67e</embedded-action>
+</browser-action>

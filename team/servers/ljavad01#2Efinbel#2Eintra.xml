@@ -1,0 +1,4 @@
+<http-server hostname="ljavad01.finbel.intra" port="7481" ssl="false"
+    uid="ljavad01.finbel.intra" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>
